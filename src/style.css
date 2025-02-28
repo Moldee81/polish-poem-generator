@@ -14,11 +14,11 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: blueviolet;
+  color: rgb(171, 32, 78);
 }
 form {
   padding: 30px;
-  border-radius: 15px;
+  border-radius: 8px;
   background-color: aliceblue;
   display: flex;
 }
@@ -29,5 +29,4 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: ;
 }
