@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
@@ -12,7 +13,7 @@
         <h1>AI Polish Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter a topic of a poem"
@@ -23,14 +24,8 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Żaden dzień się nie powtórzy,
-          <br />
-          nie ma dwóch podobnych nocy,
-          <br />
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
-
       <footer>
         This AI project was coded by
         <a href="https://github.com/Moldee81" target="_blank">

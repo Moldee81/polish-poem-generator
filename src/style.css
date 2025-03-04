@@ -34,7 +34,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: antiquewhite;
+  color: #d33b99;
 }
 .submit-button {
   margin-left: 10px;
@@ -47,10 +47,11 @@ form {
 }
 .poem {
   font-size: 18px;
-  background-color: bisque;
+  background-color: rgb(248, 226, 198);
   line-height: 2;
   padding: 20px;
   border-left: 3px solid #885df1;
+  color: #d33b99;
 }
 footer {
   text-align: center;
