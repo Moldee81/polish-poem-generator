@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background-color: rgb(249, 208, 215);
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
@@ -17,15 +17,18 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: rgb(171, 32, 78);
+  color: rgb(227, 20, 89);
 }
-form {
-  padding: 30px;
+.form-wrapper {
+  background-color: aliceblue;
+  padding: 30px 30px 10px;
   border-radius: 15px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  background-color: aliceblue;
+  margin-bottom: 20px;
+}
+
+form {
   display: flex;
-  margin-bottom: 30px;
 }
 .instruction {
   padding: 20px;
@@ -53,12 +56,30 @@ form {
   border-left: 3px solid #885df1;
   color: #d33b99;
 }
+.hidden {
+  display: none;
+}
 .poem strong {
   color: #885df1;
+}
+.example {
+  opacity: 0.6;
+  margin: 0 20px;
+  color: #a1136b;
+  line-height: 4;
+  font-size: 13px;
 }
 footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
   opacity: 0.8;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
