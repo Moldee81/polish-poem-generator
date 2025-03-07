@@ -22,7 +22,6 @@ function generatePoem(event) {
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="generating">⌛Generating a Polish poem about ${instructionInput.value}...</div>`;
 
-  console.log("generating poem");
   axios.get(apiUrl).then(displayPoem);
 }
 let poemFormElement = document.querySelector("#poem-generator-form");
